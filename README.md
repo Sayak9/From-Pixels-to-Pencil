@@ -1,4 +1,4 @@
-# From Pixels to Pencil: Exploring Image Sketching with OpenCV
+# Exploring Image Sketching with OpenCV
 
 What does it take to turn an ordinary photograph into something that resembles a pencil drawing? This project explores how a series of simple image processing techniques can transform a colour image into a monochromatic sketch.
 
@@ -13,6 +13,21 @@ The objective is to take a colour photograph and progressively transform it into
 The process involves working with pixel intensity values, manipulating contrast and blending different versions of the same image.
 
 The notebook also explores how changing the Gaussian blur kernel influences the final appearance and whether local contrast enhancement can bring out additional details.
+
+## Sample Results
+
+To demonstrate the transformation, I used a photograph of a Golden Retriever as the input image and processed it through the OpenCV pipeline.
+
+The comparison below shows the original photograph alongside the standard pencil sketch and the CLAHE enhanced version.
+
+![Original photograph and pencil sketch comparison](a_wide_triptych_comparison_image_with_three_panels.png)
+
+The individual outputs are also available:
+
+- `input_image.jpg` : Original photograph.
+- `output/pencil_sketch.png` : Standard pencil sketch.
+- `output/pencil_sketch_enhanced.png` : CLAHE enhanced pencil sketch.
+
 
 ## Tools and Technologies
 
